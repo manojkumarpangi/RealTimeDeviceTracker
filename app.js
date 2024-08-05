@@ -10,8 +10,12 @@ const io = socket(server);
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
+io.on("connection", function(socket){
+    console.log("a new connection");
+})
+
 app.get("/", function(req, res) {
-    res.send("Hello World!");
+    res.render("index");
 });
 
 server.listen(3000, () => {
