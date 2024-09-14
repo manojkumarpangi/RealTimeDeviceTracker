@@ -10,7 +10,7 @@ if(navigator.geolocation){
         console.log(error);
     },
     {
-        enableHighAccuracy: false,
+        enableHighAccuracy: true,
         timeout: 2000,
         maximumAge: 0,
     }
