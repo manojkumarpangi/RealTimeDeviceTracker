@@ -6,7 +6,7 @@ This project is a real-time web application that tracks the location of devices 
 Check out the live version of the app [**here**](https://realtimedevicetracker-f9jv.onrender.com).
 
 You can open the link on multiple devices to see how the real-time location tracking works across different devices simultaneously. The app dynamically updates the location of all connected devices on the map in real time.
-Future improvements will be added, which can be found in the **Upcoming Enhancements** section.
+Future improvements will be added, which can be found in the [**Upcoming Enhancements**](#upcoming-enhancements) section.
 
 ## Features
 - Real-time device tracking with instant updates using **Socket.io**.
@@ -22,7 +22,7 @@ Future improvements will be added, which can be found in the **Upcoming Enhancem
 
 ## Upcoming Enhancements
 - **Session Management**: Enhancing user sessions for improved security.
-- **Login Functionality**: Adding user authentication for better access control.
+- **Login Functionality**: Adding user authentication for better access control
 
 ## Getting Started
 
