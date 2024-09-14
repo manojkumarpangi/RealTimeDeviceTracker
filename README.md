@@ -3,7 +3,7 @@
 This project is a real-time web application that tracks the location of devices on an interactive map. Using geolocation and Socket.io, it provides live updates of device positions, enabling seamless tracking and visualization on the front end.
 
 ### Live Demo
-Check out the live version of the app [here](https://realtimedevicetracker-f9jv.onrender.com).
+Check out the live version of the app [**here**](https://realtimedevicetracker-f9jv.onrender.com).
 
 ## Features
 - Real-time device tracking with instant updates using **Socket.io**.
@@ -25,9 +25,12 @@ Check out the live version of the app [here](https://realtimedevicetracker-f9jv.
 
 To run this project locally:
 1. Clone the repository:
+   ```bash
    git clone https://github.com/manojkumarpangi/RealTimeDeviceTracker.git
 2. Install the dependencies:
+   ```bash
    npm install
 3. Run the server:
-   npm start
+   ```bash
+    npm start
 4. Access the app at http://localhost:3000.
